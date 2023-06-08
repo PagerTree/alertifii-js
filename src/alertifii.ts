@@ -61,9 +61,9 @@ export class Alertifii {
     retry: 30
   }
 
-  constructor(user: string, token: string) {
-    this._notification.user = user
-    this._notification.token = token
+  constructor(integration_id: string, destination_id?: string) {
+    this._notification.token = integration_id
+    this._notification.user = destination_id || integration_id
   }
 
   public setDevice(device: string): Alertifii {

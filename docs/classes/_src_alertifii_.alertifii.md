@@ -40,16 +40,16 @@
 
 ### constructor
 
-\+ **new Alertifii**(`user`: string, `token`: string): [Alertifii](_src_alertifii_.alertifii.md)
+\+ **new Alertifii**(`integration_id`: string, `destination_id?`: undefined \| string): [Alertifii](_src_alertifii_.alertifii.md)
 
-*Defined in [src/alertifii.ts:62](https://github.com/PagerTree/alertifii-js/blob/af96a42/src/alertifii.ts#L62)*
+*Defined in [src/alertifii.ts:62](https://github.com/PagerTree/alertifii-js/blob/5b5d650/src/alertifii.ts#L62)*
 
 #### Parameters:
 
 Name | Type |
 ------ | ------ |
-`user` | string |
-`token` | string |
+`integration_id` | string |
+`destination_id?` | undefined \| string |
 
 **Returns:** [Alertifii](_src_alertifii_.alertifii.md)
 
@@ -59,7 +59,7 @@ Name | Type |
 
 • `Private` **\_hostname**: string = "api.alertifii.com"
 
-*Defined in [src/alertifii.ts:50](https://github.com/PagerTree/alertifii-js/blob/af96a42/src/alertifii.ts#L50)*
+*Defined in [src/alertifii.ts:50](https://github.com/PagerTree/alertifii-js/blob/5b5d650/src/alertifii.ts#L50)*
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 • `Private` **\_path**: string = "/1/messages.json"
 
-*Defined in [src/alertifii.ts:51](https://github.com/PagerTree/alertifii-js/blob/af96a42/src/alertifii.ts#L51)*
+*Defined in [src/alertifii.ts:51](https://github.com/PagerTree/alertifii-js/blob/5b5d650/src/alertifii.ts#L51)*
 
 ## Methods
 
@@ -75,7 +75,7 @@ ___
 
 ▸ **send**(`title?`: undefined \| string, `message?`: undefined \| string): Promise\<[IResponse](../interfaces/_src_request_.iresponse.md)>
 
-*Defined in [src/alertifii.ts:129](https://github.com/PagerTree/alertifii-js/blob/af96a42/src/alertifii.ts#L129)*
+*Defined in [src/alertifii.ts:129](https://github.com/PagerTree/alertifii-js/blob/5b5d650/src/alertifii.ts#L129)*
 
 #### Parameters:
 
@@ -92,7 +92,7 @@ ___
 
 ▸ **setAttachment**(`name`: string, `filePath`: string): [Alertifii](_src_alertifii_.alertifii.md)
 
-*Defined in [src/alertifii.ts:94](https://github.com/PagerTree/alertifii-js/blob/af96a42/src/alertifii.ts#L94)*
+*Defined in [src/alertifii.ts:94](https://github.com/PagerTree/alertifii-js/blob/5b5d650/src/alertifii.ts#L94)*
 
 #### Parameters:
 
@@ -109,7 +109,7 @@ ___
 
 ▸ **setDevice**(`device`: string): [Alertifii](_src_alertifii_.alertifii.md)
 
-*Defined in [src/alertifii.ts:69](https://github.com/PagerTree/alertifii-js/blob/af96a42/src/alertifii.ts#L69)*
+*Defined in [src/alertifii.ts:69](https://github.com/PagerTree/alertifii-js/blob/5b5d650/src/alertifii.ts#L69)*
 
 #### Parameters:
 
@@ -125,7 +125,7 @@ ___
 
 ▸ **setHtml**(): [Alertifii](_src_alertifii_.alertifii.md)
 
-*Defined in [src/alertifii.ts:74](https://github.com/PagerTree/alertifii-js/blob/af96a42/src/alertifii.ts#L74)*
+*Defined in [src/alertifii.ts:74](https://github.com/PagerTree/alertifii-js/blob/5b5d650/src/alertifii.ts#L74)*
 
 **Returns:** [Alertifii](_src_alertifii_.alertifii.md)
 
@@ -135,7 +135,7 @@ ___
 
 ▸ **setMessage**(`message`: string): [Alertifii](_src_alertifii_.alertifii.md)
 
-*Defined in [src/alertifii.ts:84](https://github.com/PagerTree/alertifii-js/blob/af96a42/src/alertifii.ts#L84)*
+*Defined in [src/alertifii.ts:84](https://github.com/PagerTree/alertifii-js/blob/5b5d650/src/alertifii.ts#L84)*
 
 #### Parameters:
 
@@ -151,7 +151,7 @@ ___
 
 ▸ **setPriority**(`priority`: [Priority](../modules/_src_alertifii_.md#priority), `expire?`: undefined \| number, `retry?`: undefined \| number): [Alertifii](_src_alertifii_.alertifii.md)
 
-*Defined in [src/alertifii.ts:102](https://github.com/PagerTree/alertifii-js/blob/af96a42/src/alertifii.ts#L102)*
+*Defined in [src/alertifii.ts:102](https://github.com/PagerTree/alertifii-js/blob/5b5d650/src/alertifii.ts#L102)*
 
 #### Parameters:
 
@@ -169,7 +169,7 @@ ___
 
 ▸ **setSound**(`sound`: [Sound](../modules/_src_alertifii_.md#sound)): [Alertifii](_src_alertifii_.alertifii.md)
 
-*Defined in [src/alertifii.ts:89](https://github.com/PagerTree/alertifii-js/blob/af96a42/src/alertifii.ts#L89)*
+*Defined in [src/alertifii.ts:89](https://github.com/PagerTree/alertifii-js/blob/5b5d650/src/alertifii.ts#L89)*
 
 #### Parameters:
 
@@ -185,7 +185,7 @@ ___
 
 ▸ **setTimestamp**(`timestamp`: number): [Alertifii](_src_alertifii_.alertifii.md)
 
-*Defined in [src/alertifii.ts:124](https://github.com/PagerTree/alertifii-js/blob/af96a42/src/alertifii.ts#L124)*
+*Defined in [src/alertifii.ts:124](https://github.com/PagerTree/alertifii-js/blob/5b5d650/src/alertifii.ts#L124)*
 
 #### Parameters:
 
@@ -201,7 +201,7 @@ ___
 
 ▸ **setTitle**(`title`: string): [Alertifii](_src_alertifii_.alertifii.md)
 
-*Defined in [src/alertifii.ts:79](https://github.com/PagerTree/alertifii-js/blob/af96a42/src/alertifii.ts#L79)*
+*Defined in [src/alertifii.ts:79](https://github.com/PagerTree/alertifii-js/blob/5b5d650/src/alertifii.ts#L79)*
 
 #### Parameters:
 
@@ -217,7 +217,7 @@ ___
 
 ▸ **setUrl**(`url`: string, `title?`: undefined \| string): [Alertifii](_src_alertifii_.alertifii.md)
 
-*Defined in [src/alertifii.ts:116](https://github.com/PagerTree/alertifii-js/blob/af96a42/src/alertifii.ts#L116)*
+*Defined in [src/alertifii.ts:116](https://github.com/PagerTree/alertifii-js/blob/5b5d650/src/alertifii.ts#L116)*
 
 #### Parameters:
 
@@ -234,7 +234,7 @@ Name | Type |
 
 ▪ `Private` **\_notification**: object
 
-*Defined in [src/alertifii.ts:53](https://github.com/PagerTree/alertifii-js/blob/af96a42/src/alertifii.ts#L53)*
+*Defined in [src/alertifii.ts:53](https://github.com/PagerTree/alertifii-js/blob/5b5d650/src/alertifii.ts#L53)*
 
 #### Properties:
 

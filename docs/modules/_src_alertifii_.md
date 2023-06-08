@@ -25,7 +25,7 @@
 
 Ƭ  **Priority**: -2 \| -1 \| 0 \| 1 \| 2
 
-*Defined in [src/alertifii.ts:5](https://github.com/PagerTree/alertifii-js/blob/af96a42/src/alertifii.ts#L5)*
+*Defined in [src/alertifii.ts:5](https://github.com/PagerTree/alertifii-js/blob/5b5d650/src/alertifii.ts#L5)*
 
 ___
 
@@ -33,4 +33,4 @@ ___
 
 Ƭ  **Sound**: \"alertifii\" \| \"bike\" \| \"bugle\" \| \"cashregister\" \| \"classical\" \| \"cosmic\" \| \"falling\" \| \"gamelan\" \| \"incoming\" \| \"intermission\" \| \"magic\" \| \"mechanical\" \| \"pianobar\" \| \"siren\" \| \"spacealarm\" \| \"tugboat\" \| \"alien\" \| \"climb\" \| \"persistent\" \| \"echo\" \| \"updown\"
 
-*Defined in [src/alertifii.ts:27](https://github.com/PagerTree/alertifii-js/blob/af96a42/src/alertifii.ts#L27)*
+*Defined in [src/alertifii.ts:27](https://github.com/PagerTree/alertifii-js/blob/5b5d650/src/alertifii.ts#L27)*

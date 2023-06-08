@@ -24,7 +24,7 @@ export declare class Alertifii {
     private _hostname;
     private _path;
     private _notification;
-    constructor(user: string, token: string);
+    constructor(integration_id: string, destination_id?: string);
     setDevice(device: string): Alertifii;
     setHtml(): Alertifii;
     setTitle(title: string): Alertifii;

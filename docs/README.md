@@ -2,7 +2,7 @@
 
 > [Globals](globals.md)
 
-# alertifii-js v1.3.0
+# alertifii-js
 
 A Node JS module written in Typescript to use with Alertifii notifications app
 
@@ -43,7 +43,7 @@ Please read the complete documentation in the [docs](docs/globals.md) folder
 var Alertifii = require( 'alertifii-js').Alertifii;
 
 // Instance
-const alertifii = new Alertifii('user', 'token')
+const alertifii = new Alertifii('integration_id')
 
 // Simple notification (without personalization)
 alertifii
@@ -84,7 +84,7 @@ alertifii
 import { Alertifii } from 'alertifii-js'
 
 // Instance
-const alertifii = new Alertifii('user', 'token')
+const alertifii = new Alertifii('integration_id')
 
 // Simple notification (without personalization)
 alertifii
@@ -125,7 +125,7 @@ import { Alertifii } from 'alertifii-js'
 // Use this inside an async function
 const sendNotification = async () => {
     // Instance
-    const alertifii = new Alertifii('user', 'token')
+    const alertifii = new Alertifii('integration_id')
 
     // Custom notification
     alertifii
