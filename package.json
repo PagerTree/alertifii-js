@@ -1,5 +1,6 @@
 {
   "name": "alertifii-js",
+  "version": "1.3.0",
   "description": "Library to send notifications with Alertifii",
   "private": false,
   "author": {

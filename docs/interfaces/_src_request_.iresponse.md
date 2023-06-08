@@ -22,7 +22,7 @@
 
 •  **data**: string
 
-*Defined in src/request.ts:8*
+*Defined in [src/request.ts:8](https://github.com/PagerTree/alertifii-js/blob/af96a42/src/request.ts#L8)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 •  **headers**: any
 
-*Defined in src/request.ts:7*
+*Defined in [src/request.ts:7](https://github.com/PagerTree/alertifii-js/blob/af96a42/src/request.ts#L7)*
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 •  **statusCode**: number
 
-*Defined in src/request.ts:9*
+*Defined in [src/request.ts:9](https://github.com/PagerTree/alertifii-js/blob/af96a42/src/request.ts#L9)*
